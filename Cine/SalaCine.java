@@ -60,7 +60,7 @@ public class SalaCine{
                 if (sala[x][y] != null){
                     char aux = (char)(y+65);
                     System.out.println("         "+(x+1)+ "" +aux + "         " 
-                    + sala[x][y].nombre);
+                    + sala[x][y].nombre) + "                         ["+ sala[x][y].id + "]");
                 }
             }
         }
